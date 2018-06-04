@@ -1,0 +1,20 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro index.js",
+    "test": "npx ava *_test.js -v"
+  },
+  "author": "Alireza Bashiri",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "redis": "^2.8.0",
+    "ava": "^0.25.0",
+    "ava-http": "^1.0.0",
+    "rewire": "^4.0.1",
+    "test-listen": "^1.1.0"
+  }
+}
